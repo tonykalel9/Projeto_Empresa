@@ -9,7 +9,8 @@ namespace Empresa.UI.Windows
 
         private void teste1StripMenuItem1_Click(object sender, EventArgs e)
         {
-
+            var f = new ClientesForm();
+            f.ShowDialog();
         }
 
         private void principalForm_Load(object sender, EventArgs e)
@@ -17,11 +18,7 @@ namespace Empresa.UI.Windows
 
         }
 
-        private void novoClienteToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ClienteIncluirForm f = new ClienteIncluirForm();
-            f.ShowDialog();
-        }
+
     }
 
 

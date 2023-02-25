@@ -53,7 +53,6 @@ namespace Empresa.UI.Windows
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.testeStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.teste1StripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.novoClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fornecedoresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.produtosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
@@ -91,19 +90,10 @@ namespace Empresa.UI.Windows
             // 
             // teste1StripMenuItem1
             // 
-            this.teste1StripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.novoClienteToolStripMenuItem});
             this.teste1StripMenuItem1.Name = "teste1StripMenuItem1";
             this.teste1StripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.teste1StripMenuItem1.Text = "Clientes";
             this.teste1StripMenuItem1.Click += new System.EventHandler(this.teste1StripMenuItem1_Click);
-            // 
-            // novoClienteToolStripMenuItem
-            // 
-            this.novoClienteToolStripMenuItem.Name = "novoClienteToolStripMenuItem";
-            this.novoClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.novoClienteToolStripMenuItem.Text = "Novo Cliente...";
-            this.novoClienteToolStripMenuItem.Click += new System.EventHandler(this.novoClienteToolStripMenuItem_Click);
             // 
             // fornecedoresToolStripMenuItem
             // 
@@ -149,7 +139,6 @@ namespace Empresa.UI.Windows
         private MenuStrip menuStrip1;
         private ToolStripMenuItem testeStripMenuItem1;
         private ToolStripMenuItem teste1StripMenuItem1;
-        private ToolStripMenuItem novoClienteToolStripMenuItem;
         private ToolStripMenuItem fornecedoresToolStripMenuItem;
         private ToolStripMenuItem produtosToolStripMenuItem;
         private ToolStripSeparator toolStripMenuItem1;

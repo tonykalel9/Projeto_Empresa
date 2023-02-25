@@ -14,7 +14,7 @@ namespace Empresa.Db
         {
             get
             {
-                return @"(LocalDB)\MSSQLLocalDB;Initial Catalog=EmpresaDb;Integrated Security=True;Pooling=False";
+                return @"Data Source=(LocalDB)\MSSQLLocalDB;Initial Catalog=EmpresaDb;Integrated Security=True;";
             }
         }
     }
